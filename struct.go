@@ -113,3 +113,11 @@ type LongLat struct {
 	Latitude  float64 `json:"latitude"`
 	Longitude float64 `json:"longitude"`
 }
+
+type Asdasd struct {
+	Coordinates interface{} `json:"coordinates" bson:"coordinates"`
+	Max         int64       `json:"max,omitempty" bson:"max,omitempty"`
+	Min         int64       `json:"min,omitempty" bson:"min,omitempty"`
+	Radius      float64     `json:"radius,omitempty" bson:"radius,omitempty"`
+	Type        float64     `json:"type,omitempty" bson:"type,omitempty"`
+}
