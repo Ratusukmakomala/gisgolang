@@ -1,4 +1,4 @@
-package yaya
+package ratu
 
 import (
 	"os"

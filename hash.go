@@ -1,4 +1,4 @@
-package yaya
+package ratu
 
 import "golang.org/x/crypto/bcrypt"
 

@@ -1,4 +1,4 @@
-package yaya
+package ratu
 
 import (
 	"context"
@@ -176,7 +176,7 @@ func GetGeoWithinDoc(db *mongo.Database, collname string, coordinates Polygon) (
 			},
 		},
 	}
-	
+
 	var docs []FullGeoJson
 	cur, err := db.Collection(collname).Find(context.TODO(), filter)
 	if err != nil {
